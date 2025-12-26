@@ -1,0 +1,903 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0472AB9F2EFE24C2007FE120 /* ExactBlockerWebExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0472AB872EFE24C2007FE120 /* ExactBlockerWebExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		04830A7E2DBE4B2100F4DE4F /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 04830A7D2DBE4B2000F4DE4F /* image.png */; };
+		04830A7F2DBE4B2100F4DE4F /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 04830A7D2DBE4B2000F4DE4F /* image.png */; };
+		04937FFF2DBE067600D53EF1 /* ExactBlockerBlocker.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 04937FF62DBE067600D53EF1 /* ExactBlockerBlocker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0472AB9D2EFE24C2007FE120 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04937FC02DBE04EE00D53EF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0472AB862EFE24C2007FE120;
+			remoteInfo = ExactBlockerWebExtension;
+		};
+		04937FD62DBE04F000D53EF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04937FC02DBE04EE00D53EF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04937FC72DBE04EE00D53EF1;
+			remoteInfo = ExactBlocker;
+		};
+		04937FE02DBE04F000D53EF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04937FC02DBE04EE00D53EF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04937FC72DBE04EE00D53EF1;
+			remoteInfo = ExactBlocker;
+		};
+		04937FFD2DBE067600D53EF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04937FC02DBE04EE00D53EF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04937FF52DBE067600D53EF1;
+			remoteInfo = ExactBlockerBlocker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		049380042DBE067600D53EF1 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0472AB9F2EFE24C2007FE120 /* ExactBlockerWebExtension.appex in Embed Foundation Extensions */,
+				04937FFF2DBE067600D53EF1 /* ExactBlockerBlocker.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0472AB872EFE24C2007FE120 /* ExactBlockerWebExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ExactBlockerWebExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		04830A7D2DBE4B2000F4DE4F /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		04937FC82DBE04EE00D53EF1 /* ExactBlocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExactBlocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04937FD52DBE04F000D53EF1 /* ExactBlockerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExactBlockerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04937FDF2DBE04F000D53EF1 /* ExactBlockerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExactBlockerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04937FF62DBE067600D53EF1 /* ExactBlockerBlocker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ExactBlockerBlocker.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0472ABA02EFE24C2007FE120 /* Exceptions for "ExactBlockerWebExtension" folder in "ExactBlockerWebExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 0472AB862EFE24C2007FE120 /* ExactBlockerWebExtension */;
+		};
+		049380002DBE067600D53EF1 /* Exceptions for "ExactBlockerBlocker" folder in "ExactBlockerBlocker" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 04937FF52DBE067600D53EF1 /* ExactBlockerBlocker */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0472AB882EFE24C2007FE120 /* ExactBlockerWebExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0472ABA02EFE24C2007FE120 /* Exceptions for "ExactBlockerWebExtension" folder in "ExactBlockerWebExtension" target */,
+			);
+			explicitFolders = (
+				Resources/_locales,
+				Resources/images,
+			);
+			path = ExactBlockerWebExtension;
+			sourceTree = "<group>";
+		};
+		04937FCA2DBE04EE00D53EF1 /* ExactBlocker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ExactBlocker;
+			sourceTree = "<group>";
+		};
+		04937FD82DBE04F000D53EF1 /* ExactBlockerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ExactBlockerTests;
+			sourceTree = "<group>";
+		};
+		04937FE22DBE04F000D53EF1 /* ExactBlockerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ExactBlockerUITests;
+			sourceTree = "<group>";
+		};
+		04937FF72DBE067600D53EF1 /* ExactBlockerBlocker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				049380002DBE067600D53EF1 /* Exceptions for "ExactBlockerBlocker" folder in "ExactBlockerBlocker" target */,
+			);
+			path = ExactBlockerBlocker;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0472AB842EFE24C2007FE120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04937FC52DBE04EE00D53EF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04937FD22DBE04F000D53EF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04937FDC2DBE04F000D53EF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04937FF32DBE067600D53EF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0472AAE12EFE1E86007FE120 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04937FBF2DBE04EE00D53EF1 = {
+			isa = PBXGroup;
+			children = (
+				04937FCA2DBE04EE00D53EF1 /* ExactBlocker */,
+				04937FD82DBE04F000D53EF1 /* ExactBlockerTests */,
+				04937FE22DBE04F000D53EF1 /* ExactBlockerUITests */,
+				04937FF72DBE067600D53EF1 /* ExactBlockerBlocker */,
+				04830A7D2DBE4B2000F4DE4F /* image.png */,
+				0472AB882EFE24C2007FE120 /* ExactBlockerWebExtension */,
+				0472AAE12EFE1E86007FE120 /* Frameworks */,
+				04937FC92DBE04EE00D53EF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04937FC92DBE04EE00D53EF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04937FC82DBE04EE00D53EF1 /* ExactBlocker.app */,
+				04937FD52DBE04F000D53EF1 /* ExactBlockerTests.xctest */,
+				04937FDF2DBE04F000D53EF1 /* ExactBlockerUITests.xctest */,
+				04937FF62DBE067600D53EF1 /* ExactBlockerBlocker.appex */,
+				0472AB872EFE24C2007FE120 /* ExactBlockerWebExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0472AB862EFE24C2007FE120 /* ExactBlockerWebExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0472ABA12EFE24C2007FE120 /* Build configuration list for PBXNativeTarget "ExactBlockerWebExtension" */;
+			buildPhases = (
+				0472AB832EFE24C2007FE120 /* Sources */,
+				0472AB842EFE24C2007FE120 /* Frameworks */,
+				0472AB852EFE24C2007FE120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0472AB882EFE24C2007FE120 /* ExactBlockerWebExtension */,
+			);
+			name = ExactBlockerWebExtension;
+			packageProductDependencies = (
+			);
+			productName = ExactBlockerWebExtension;
+			productReference = 0472AB872EFE24C2007FE120 /* ExactBlockerWebExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		04937FC72DBE04EE00D53EF1 /* ExactBlocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04937FE92DBE04F000D53EF1 /* Build configuration list for PBXNativeTarget "ExactBlocker" */;
+			buildPhases = (
+				04937FC42DBE04EE00D53EF1 /* Sources */,
+				04937FC52DBE04EE00D53EF1 /* Frameworks */,
+				04937FC62DBE04EE00D53EF1 /* Resources */,
+				049380042DBE067600D53EF1 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04937FFE2DBE067600D53EF1 /* PBXTargetDependency */,
+				0472AB9E2EFE24C2007FE120 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				04937FCA2DBE04EE00D53EF1 /* ExactBlocker */,
+			);
+			name = ExactBlocker;
+			packageProductDependencies = (
+			);
+			productName = ExactBlocker;
+			productReference = 04937FC82DBE04EE00D53EF1 /* ExactBlocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04937FD42DBE04F000D53EF1 /* ExactBlockerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04937FEC2DBE04F000D53EF1 /* Build configuration list for PBXNativeTarget "ExactBlockerTests" */;
+			buildPhases = (
+				04937FD12DBE04F000D53EF1 /* Sources */,
+				04937FD22DBE04F000D53EF1 /* Frameworks */,
+				04937FD32DBE04F000D53EF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04937FD72DBE04F000D53EF1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				04937FD82DBE04F000D53EF1 /* ExactBlockerTests */,
+			);
+			name = ExactBlockerTests;
+			packageProductDependencies = (
+			);
+			productName = ExactBlockerTests;
+			productReference = 04937FD52DBE04F000D53EF1 /* ExactBlockerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04937FDE2DBE04F000D53EF1 /* ExactBlockerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04937FEF2DBE04F000D53EF1 /* Build configuration list for PBXNativeTarget "ExactBlockerUITests" */;
+			buildPhases = (
+				04937FDB2DBE04F000D53EF1 /* Sources */,
+				04937FDC2DBE04F000D53EF1 /* Frameworks */,
+				04937FDD2DBE04F000D53EF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04937FE12DBE04F000D53EF1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				04937FE22DBE04F000D53EF1 /* ExactBlockerUITests */,
+			);
+			name = ExactBlockerUITests;
+			packageProductDependencies = (
+			);
+			productName = ExactBlockerUITests;
+			productReference = 04937FDF2DBE04F000D53EF1 /* ExactBlockerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		04937FF52DBE067600D53EF1 /* ExactBlockerBlocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049380012DBE067600D53EF1 /* Build configuration list for PBXNativeTarget "ExactBlockerBlocker" */;
+			buildPhases = (
+				04937FF22DBE067600D53EF1 /* Sources */,
+				04937FF32DBE067600D53EF1 /* Frameworks */,
+				04937FF42DBE067600D53EF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				04937FF72DBE067600D53EF1 /* ExactBlockerBlocker */,
+			);
+			name = ExactBlockerBlocker;
+			packageProductDependencies = (
+			);
+			productName = ExactBlockerBlocker;
+			productReference = 04937FF62DBE067600D53EF1 /* ExactBlockerBlocker.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04937FC02DBE04EE00D53EF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					0472AB862EFE24C2007FE120 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					04937FC72DBE04EE00D53EF1 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					04937FD42DBE04F000D53EF1 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 04937FC72DBE04EE00D53EF1;
+					};
+					04937FDE2DBE04F000D53EF1 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 04937FC72DBE04EE00D53EF1;
+					};
+					04937FF52DBE067600D53EF1 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 04937FC32DBE04EE00D53EF1 /* Build configuration list for PBXProject "ExactBlocker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04937FBF2DBE04EE00D53EF1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 04937FC92DBE04EE00D53EF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04937FC72DBE04EE00D53EF1 /* ExactBlocker */,
+				04937FD42DBE04F000D53EF1 /* ExactBlockerTests */,
+				04937FDE2DBE04F000D53EF1 /* ExactBlockerUITests */,
+				04937FF52DBE067600D53EF1 /* ExactBlockerBlocker */,
+				0472AB862EFE24C2007FE120 /* ExactBlockerWebExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0472AB852EFE24C2007FE120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04937FC62DBE04EE00D53EF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04830A7F2DBE4B2100F4DE4F /* image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04937FD32DBE04F000D53EF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04937FDD2DBE04F000D53EF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04937FF42DBE067600D53EF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04830A7E2DBE4B2100F4DE4F /* image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0472AB832EFE24C2007FE120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04937FC42DBE04EE00D53EF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04937FD12DBE04F000D53EF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04937FDB2DBE04F000D53EF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04937FF22DBE067600D53EF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0472AB9E2EFE24C2007FE120 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0472AB862EFE24C2007FE120 /* ExactBlockerWebExtension */;
+			targetProxy = 0472AB9D2EFE24C2007FE120 /* PBXContainerItemProxy */;
+		};
+		04937FD72DBE04F000D53EF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04937FC72DBE04EE00D53EF1 /* ExactBlocker */;
+			targetProxy = 04937FD62DBE04F000D53EF1 /* PBXContainerItemProxy */;
+		};
+		04937FE12DBE04F000D53EF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04937FC72DBE04EE00D53EF1 /* ExactBlocker */;
+			targetProxy = 04937FE02DBE04F000D53EF1 /* PBXContainerItemProxy */;
+		};
+		04937FFE2DBE067600D53EF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04937FF52DBE067600D53EF1 /* ExactBlockerBlocker */;
+			targetProxy = 04937FFD2DBE067600D53EF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0472ABA22EFE24C2007FE120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ExactBlockerWebExtension/ExactBlockerWebExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98CDQPW36W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExactBlockerWebExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ExactBlockerWebExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-0x.ExactBlocker.ExactBlockerWebExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0472ABA32EFE24C2007FE120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ExactBlockerWebExtension/ExactBlockerWebExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98CDQPW36W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExactBlockerWebExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ExactBlockerWebExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-0x.ExactBlocker.ExactBlockerWebExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04937FE72DBE04F000D53EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 98CDQPW36W;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04937FE82DBE04F000D53EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 98CDQPW36W;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04937FEA2DBE04F000D53EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ExactBlocker/ExactBlocker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98CDQPW36W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-0x.ExactBlocker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04937FEB2DBE04F000D53EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ExactBlocker/ExactBlocker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98CDQPW36W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-0x.ExactBlocker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04937FED2DBE04F000D53EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98CDQPW36W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-0x.ExactBlockerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExactBlocker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ExactBlocker";
+			};
+			name = Debug;
+		};
+		04937FEE2DBE04F000D53EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98CDQPW36W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-0x.ExactBlockerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExactBlocker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ExactBlocker";
+			};
+			name = Release;
+		};
+		04937FF02DBE04F000D53EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98CDQPW36W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-0x.ExactBlockerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ExactBlocker;
+			};
+			name = Debug;
+		};
+		04937FF12DBE04F000D53EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98CDQPW36W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-0x.ExactBlockerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ExactBlocker;
+			};
+			name = Release;
+		};
+		049380022DBE067600D53EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = ExactBlockerBlocker/ExactBlockerBlocker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98CDQPW36W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExactBlockerBlocker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ExactBlockerBlocker;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-0x.ExactBlocker.ExactBlockerBlocker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		049380032DBE067600D53EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = ExactBlockerBlocker/ExactBlockerBlocker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98CDQPW36W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExactBlockerBlocker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ExactBlockerBlocker;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-0x.ExactBlocker.ExactBlockerBlocker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0472ABA12EFE24C2007FE120 /* Build configuration list for PBXNativeTarget "ExactBlockerWebExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0472ABA22EFE24C2007FE120 /* Debug */,
+				0472ABA32EFE24C2007FE120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04937FC32DBE04EE00D53EF1 /* Build configuration list for PBXProject "ExactBlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04937FE72DBE04F000D53EF1 /* Debug */,
+				04937FE82DBE04F000D53EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04937FE92DBE04F000D53EF1 /* Build configuration list for PBXNativeTarget "ExactBlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04937FEA2DBE04F000D53EF1 /* Debug */,
+				04937FEB2DBE04F000D53EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04937FEC2DBE04F000D53EF1 /* Build configuration list for PBXNativeTarget "ExactBlockerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04937FED2DBE04F000D53EF1 /* Debug */,
+				04937FEE2DBE04F000D53EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04937FEF2DBE04F000D53EF1 /* Build configuration list for PBXNativeTarget "ExactBlockerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04937FF02DBE04F000D53EF1 /* Debug */,
+				04937FF12DBE04F000D53EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049380012DBE067600D53EF1 /* Build configuration list for PBXNativeTarget "ExactBlockerBlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049380022DBE067600D53EF1 /* Debug */,
+				049380032DBE067600D53EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04937FC02DBE04EE00D53EF1 /* Project object */;
+}
