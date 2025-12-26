@@ -13,30 +13,29 @@ class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
     func beginRequest(with context: NSExtensionContext) {
         let request = context.inputItems.first as? NSExtensionItem
 
-        let profile: UUID?
-        if #available(iOS 17.0, macOS 14.0, *) {
-            profile = request?.userInfo?[SFExtensionProfileKey] as? UUID
+        // 1. READ RULES FROM APP GROUP
+        let defaults = UserDefaults(suiteName: "group.com.alexmorris10x.exactblocker")
+        let rulesData = defaults?.data(forKey: "ElementRulesForExtension")
+
+        var responseData: [String: Any] = ["status": "no_data"]
+
+        // 2. PREPARE DATA
+        if let data = rulesData,
+           let rules = try? JSONSerialization.jsonObject(with: data, options: []) {
+            responseData = ["status": "success", "rules": rules]
+            os_log(.default, "✅ ExactBlocker: Found rules in App Group!")
         } else {
-            profile = request?.userInfo?["profile"] as? UUID
+            os_log(.default, "⚠️ ExactBlocker: No rules found in App Group.")
         }
 
-        let message: Any?
-        if #available(iOS 15.0, macOS 11.0, *) {
-            message = request?.userInfo?[SFExtensionMessageKey]
-        } else {
-            message = request?.userInfo?["message"]
-        }
-
-        os_log(.default, "Received message from browser.runtime.sendNativeMessage: %@ (profile: %@)", String(describing: message), profile?.uuidString ?? "none")
-
+        // 3. SEND RESPONSE BACK TO JS
         let response = NSExtensionItem()
         if #available(iOS 15.0, macOS 11.0, *) {
-            response.userInfo = [ SFExtensionMessageKey: [ "echo": message ] ]
+            response.userInfo = [ SFExtensionMessageKey: responseData ]
         } else {
-            response.userInfo = [ "message": [ "echo": message ] ]
+            response.userInfo = [ "message": responseData ]
         }
 
         context.completeRequest(returningItems: [ response ], completionHandler: nil)
     }
-
 }
