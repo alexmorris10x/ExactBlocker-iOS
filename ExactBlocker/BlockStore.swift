@@ -171,7 +171,7 @@ final class BlockStore: ObservableObject {
                 print("❌ File does NOT exist after write!")
             }
 
-            let extensionID = "-0x.ExactBlocker.ExactBlockerBlocker"
+            let extensionID = "com.alexmorris10x.exactblocker.blocker"
             print("🔄 Reloading content blocker: \(extensionID)")
 
             SFContentBlockerManager.reloadContentBlocker(withIdentifier: extensionID) { error in
