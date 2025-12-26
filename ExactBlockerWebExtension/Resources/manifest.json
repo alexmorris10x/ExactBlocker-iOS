@@ -1,14 +1,14 @@
 {
     "name": "ExactBlocker",
-    "version": "1.1",
+    "version": "1.2",
     "manifest_version": 3,
     "description": "Block page elements like uBlock Origin",
 
     "permissions": [],
-    "host_permissions": ["https://*/*", "http://*/*"],
+    "host_permissions": ["*://*.youtube.com/*", "*://*.google.com/*", "*://*.reddit.com/*", "*://*.instagram.com/*"],
 
     "content_scripts": [{
-        "matches": ["https://*/*", "http://*/*"],
+        "matches": ["*://*.youtube.com/*", "*://*.google.com/*", "*://*.reddit.com/*", "*://*.instagram.com/*"],
         "js": ["content.js"],
         "run_at": "document_start"
     }],
