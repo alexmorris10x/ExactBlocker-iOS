@@ -1,10 +1,8 @@
 {
     "manifest_version": 3,
-    "default_locale": "en",
-
-    "name": "__MSG_extension_name__",
-    "description": "__MSG_extension_description__",
+    "name": "ExactBlocker",
     "version": "1.0",
+    "description": "Block page elements like uBlock Origin",
 
     "icons": {
         "48": "images/icon-48.png",
@@ -15,7 +13,8 @@
     },
 
     "background": {
-        "service_worker": "background.js"
+        "scripts": ["background.js"],
+        "persistent": false
     },
 
     "action": {
@@ -24,18 +23,18 @@
     },
 
     "content_scripts": [{
-        "js": [ "content.js" ],
-        "matches": [ "<all_urls>" ],
-        "run_at": "document_start",
+        "js": ["content.js"],
+        "matches": ["https://*/*", "http://*/*"],
+        "run_at": "document_idle",
         "all_frames": true
     }],
 
     "host_permissions": [
-        "<all_urls>"
+        "https://*/*",
+        "http://*/*"
     ],
 
     "permissions": [
-        "scripting",
         "storage",
         "nativeMessaging"
     ]
