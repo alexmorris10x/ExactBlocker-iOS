@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0472AB9F2EFE24C2007FE120 /* ExactBlockerWebExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0472AB872EFE24C2007FE120 /* ExactBlockerWebExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		04830A7E2DBE4B2100F4DE4F /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 04830A7D2DBE4B2000F4DE4F /* image.png */; };
 		04830A7F2DBE4B2100F4DE4F /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 04830A7D2DBE4B2000F4DE4F /* image.png */; };
+		049024612EFE42CC007CE0D1 /* ExactBlocker Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 049024492EFE42CC007CE0D1 /* ExactBlocker Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		04937FFF2DBE067600D53EF1 /* ExactBlockerBlocker.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 04937FF62DBE067600D53EF1 /* ExactBlockerBlocker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0472AB9D2EFE24C2007FE120 /* PBXContainerItemProxy */ = {
+		0490245F2EFE42CC007CE0D1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 04937FC02DBE04EE00D53EF1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0472AB862EFE24C2007FE120;
-			remoteInfo = ExactBlockerWebExtension;
+			remoteGlobalIDString = 049024482EFE42CC007CE0D1;
+			remoteInfo = "ExactBlocker Extension";
 		};
 		04937FD62DBE04F000D53EF1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -51,7 +51,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				0472AB9F2EFE24C2007FE120 /* ExactBlockerWebExtension.appex in Embed Foundation Extensions */,
+				049024612EFE42CC007CE0D1 /* ExactBlocker Extension.appex in Embed Foundation Extensions */,
 				04937FFF2DBE067600D53EF1 /* ExactBlockerBlocker.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
@@ -60,8 +60,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0472AB872EFE24C2007FE120 /* ExactBlockerWebExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ExactBlockerWebExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		04830A7D2DBE4B2000F4DE4F /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		049024492EFE42CC007CE0D1 /* ExactBlocker Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ExactBlocker Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04937FC82DBE04EE00D53EF1 /* ExactBlocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExactBlocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04937FD52DBE04F000D53EF1 /* ExactBlockerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExactBlockerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04937FDF2DBE04F000D53EF1 /* ExactBlockerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExactBlockerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,12 +69,12 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		0472ABA02EFE24C2007FE120 /* Exceptions for "ExactBlockerWebExtension" folder in "ExactBlockerWebExtension" target */ = {
+		049024622EFE42CC007CE0D1 /* Exceptions for "ExactBlocker Extension" folder in "ExactBlocker Extension" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 0472AB862EFE24C2007FE120 /* ExactBlockerWebExtension */;
+			target = 049024482EFE42CC007CE0D1 /* ExactBlocker Extension */;
 		};
 		049380002DBE067600D53EF1 /* Exceptions for "ExactBlockerBlocker" folder in "ExactBlockerBlocker" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
@@ -86,16 +86,16 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		0472AB882EFE24C2007FE120 /* ExactBlockerWebExtension */ = {
+		0490244A2EFE42CC007CE0D1 /* ExactBlocker Extension */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				0472ABA02EFE24C2007FE120 /* Exceptions for "ExactBlockerWebExtension" folder in "ExactBlockerWebExtension" target */,
+				049024622EFE42CC007CE0D1 /* Exceptions for "ExactBlocker Extension" folder in "ExactBlocker Extension" target */,
 			);
 			explicitFolders = (
 				Resources/_locales,
 				Resources/images,
 			);
-			path = ExactBlockerWebExtension;
+			path = "ExactBlocker Extension";
 			sourceTree = "<group>";
 		};
 		04937FCA2DBE04EE00D53EF1 /* ExactBlocker */ = {
@@ -124,7 +124,7 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0472AB842EFE24C2007FE120 /* Frameworks */ = {
+		049024462EFE42CC007CE0D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -162,13 +162,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0472AAE12EFE1E86007FE120 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		04937FBF2DBE04EE00D53EF1 = {
 			isa = PBXGroup;
 			children = (
@@ -177,8 +170,7 @@
 				04937FE22DBE04F000D53EF1 /* ExactBlockerUITests */,
 				04937FF72DBE067600D53EF1 /* ExactBlockerBlocker */,
 				04830A7D2DBE4B2000F4DE4F /* image.png */,
-				0472AB882EFE24C2007FE120 /* ExactBlockerWebExtension */,
-				0472AAE12EFE1E86007FE120 /* Frameworks */,
+				0490244A2EFE42CC007CE0D1 /* ExactBlocker Extension */,
 				04937FC92DBE04EE00D53EF1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -190,7 +182,7 @@
 				04937FD52DBE04F000D53EF1 /* ExactBlockerTests.xctest */,
 				04937FDF2DBE04F000D53EF1 /* ExactBlockerUITests.xctest */,
 				04937FF62DBE067600D53EF1 /* ExactBlockerBlocker.appex */,
-				0472AB872EFE24C2007FE120 /* ExactBlockerWebExtension.appex */,
+				049024492EFE42CC007CE0D1 /* ExactBlocker Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -198,26 +190,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0472AB862EFE24C2007FE120 /* ExactBlockerWebExtension */ = {
+		049024482EFE42CC007CE0D1 /* ExactBlocker Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0472ABA12EFE24C2007FE120 /* Build configuration list for PBXNativeTarget "ExactBlockerWebExtension" */;
+			buildConfigurationList = 049024632EFE42CC007CE0D1 /* Build configuration list for PBXNativeTarget "ExactBlocker Extension" */;
 			buildPhases = (
-				0472AB832EFE24C2007FE120 /* Sources */,
-				0472AB842EFE24C2007FE120 /* Frameworks */,
-				0472AB852EFE24C2007FE120 /* Resources */,
+				049024452EFE42CC007CE0D1 /* Sources */,
+				049024462EFE42CC007CE0D1 /* Frameworks */,
+				049024472EFE42CC007CE0D1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				0472AB882EFE24C2007FE120 /* ExactBlockerWebExtension */,
+				0490244A2EFE42CC007CE0D1 /* ExactBlocker Extension */,
 			);
-			name = ExactBlockerWebExtension;
+			name = "ExactBlocker Extension";
 			packageProductDependencies = (
 			);
-			productName = ExactBlockerWebExtension;
-			productReference = 0472AB872EFE24C2007FE120 /* ExactBlockerWebExtension.appex */;
+			productName = "ExactBlocker Extension";
+			productReference = 049024492EFE42CC007CE0D1 /* ExactBlocker Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		04937FC72DBE04EE00D53EF1 /* ExactBlocker */ = {
@@ -233,7 +225,7 @@
 			);
 			dependencies = (
 				04937FFE2DBE067600D53EF1 /* PBXTargetDependency */,
-				0472AB9E2EFE24C2007FE120 /* PBXTargetDependency */,
+				049024602EFE42CC007CE0D1 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				04937FCA2DBE04EE00D53EF1 /* ExactBlocker */,
@@ -323,7 +315,7 @@
 				LastSwiftUpdateCheck = 2620;
 				LastUpgradeCheck = 1630;
 				TargetAttributes = {
-					0472AB862EFE24C2007FE120 = {
+					049024482EFE42CC007CE0D1 = {
 						CreatedOnToolsVersion = 26.2;
 					};
 					04937FC72DBE04EE00D53EF1 = {
@@ -360,13 +352,13 @@
 				04937FD42DBE04F000D53EF1 /* ExactBlockerTests */,
 				04937FDE2DBE04F000D53EF1 /* ExactBlockerUITests */,
 				04937FF52DBE067600D53EF1 /* ExactBlockerBlocker */,
-				0472AB862EFE24C2007FE120 /* ExactBlockerWebExtension */,
+				049024482EFE42CC007CE0D1 /* ExactBlocker Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0472AB852EFE24C2007FE120 /* Resources */ = {
+		049024472EFE42CC007CE0D1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -406,7 +398,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0472AB832EFE24C2007FE120 /* Sources */ = {
+		049024452EFE42CC007CE0D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -444,10 +436,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0472AB9E2EFE24C2007FE120 /* PBXTargetDependency */ = {
+		049024602EFE42CC007CE0D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0472AB862EFE24C2007FE120 /* ExactBlockerWebExtension */;
-			targetProxy = 0472AB9D2EFE24C2007FE120 /* PBXContainerItemProxy */;
+			target = 049024482EFE42CC007CE0D1 /* ExactBlocker Extension */;
+			targetProxy = 0490245F2EFE42CC007CE0D1 /* PBXContainerItemProxy */;
 		};
 		04937FD72DBE04F000D53EF1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -467,16 +459,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0472ABA22EFE24C2007FE120 /* Debug */ = {
+		049024642EFE42CC007CE0D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = ExactBlockerWebExtension/ExactBlockerWebExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 98CDQPW36W;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ExactBlockerWebExtension/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = ExactBlockerWebExtension;
+				INFOPLIST_FILE = "ExactBlocker Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ExactBlocker Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -489,7 +480,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexmorris10x.exactblocker.webextension;
+				PRODUCT_BUNDLE_IDENTIFIER = "-0x.ExactBlocker.Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -501,16 +492,15 @@
 			};
 			name = Debug;
 		};
-		0472ABA32EFE24C2007FE120 /* Release */ = {
+		049024652EFE42CC007CE0D1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = ExactBlockerWebExtension/ExactBlockerWebExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 98CDQPW36W;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ExactBlockerWebExtension/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = ExactBlockerWebExtension;
+				INFOPLIST_FILE = "ExactBlocker Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ExactBlocker Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -523,7 +513,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexmorris10x.exactblocker.webextension;
+				PRODUCT_BUNDLE_IDENTIFIER = "-0x.ExactBlocker.Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -677,7 +667,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexmorris10x.exactblocker;
+				PRODUCT_BUNDLE_IDENTIFIER = "-0x.ExactBlocker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -706,7 +696,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexmorris10x.exactblocker;
+				PRODUCT_BUNDLE_IDENTIFIER = "-0x.ExactBlocker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -843,11 +833,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0472ABA12EFE24C2007FE120 /* Build configuration list for PBXNativeTarget "ExactBlockerWebExtension" */ = {
+		049024632EFE42CC007CE0D1 /* Build configuration list for PBXNativeTarget "ExactBlocker Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0472ABA22EFE24C2007FE120 /* Debug */,
-				0472ABA32EFE24C2007FE120 /* Release */,
+				049024642EFE42CC007CE0D1 /* Debug */,
+				049024652EFE42CC007CE0D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

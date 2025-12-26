@@ -57,8 +57,12 @@
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES"
       launchAutomaticallySubstyle = "2">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "0"
+         BundleIdentifier = "com.alexmorris10x.exactblocker"
+         RemotePath = "/var/containers/Bundle/Application/64816704-6518-4A30-9C26-575538BBF239/ExactBlocker.app">
+      </RemoteRunnable>
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "04937FC72DBE04EE00D53EF1"
@@ -66,7 +70,7 @@
             BlueprintName = "ExactBlocker"
             ReferencedContainer = "container:ExactBlocker.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
