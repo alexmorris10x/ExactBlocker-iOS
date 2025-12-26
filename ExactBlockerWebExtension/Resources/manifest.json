@@ -1,8 +1,17 @@
 {
-    "manifest_version": 3,
     "name": "ExactBlocker",
     "version": "1.0",
+    "manifest_version": 3,
     "description": "Block page elements like uBlock Origin",
+
+    "permissions": [],
+    "host_permissions": ["*://*.youtube.com/*"],
+
+    "content_scripts": [{
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["content.js"],
+        "run_at": "document_start"
+    }],
 
     "icons": {
         "48": "images/icon-48.png",
@@ -10,32 +19,5 @@
         "128": "images/icon-128.png",
         "256": "images/icon-256.png",
         "512": "images/icon-512.png"
-    },
-
-    "background": {
-        "scripts": ["background.js"],
-        "persistent": false
-    },
-
-    "action": {
-        "default_popup": "popup.html",
-        "default_title": "ExactBlocker"
-    },
-
-    "content_scripts": [{
-        "js": ["content.js"],
-        "matches": ["https://*/*", "http://*/*"],
-        "run_at": "document_idle",
-        "all_frames": true
-    }],
-
-    "host_permissions": [
-        "https://*/*",
-        "http://*/*"
-    ],
-
-    "permissions": [
-        "storage",
-        "nativeMessaging"
-    ]
+    }
 }
